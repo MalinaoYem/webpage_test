@@ -1,0 +1,39 @@
+.title{
+    text-align: center;
+    margin: 40px auto 30px;
+}
+
+.card-container{
+	position: relative;
+	width: 300px;
+    height: 450px;
+    margin: auto;
+}
+
+.card-container:hover .card-front{
+	transform: rotateY(180deg);
+}
+
+.card-container:hover .card-back{
+	transform: rotateY(0deg);
+}
+
+.card-back{
+	transform: rotateY(180deg);
+}
+
+.card{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	transition: all 0.9s;
+	backface-visibility: hidden;
+}
+
+.card-back .card-body{
+	
+	height: 45%;
+    text-align: center;
+    background-color: #001a34;
+}
+
