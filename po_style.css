@@ -1,0 +1,51 @@
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+  background-image: url('po_img/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
+.navbar{
+    background-color:gray;
+    padding: 1% 0;
+    font-size: 0.90em;
+}
+
+.navbar-brand{
+    min-height: 40px;
+    padding: 0 10px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    background-color: #e6e7e9;
+    padding: 3% 3% 3% 3%;
+    color: black;
+
+}
+.fa{
+    padding: 15px;
+    font-size: 25px;
+    color: black;
+}
+
+.fa:hover{
+    color: gray;
+    text-decoration: none;
+}
